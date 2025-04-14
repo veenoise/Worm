@@ -2,7 +2,7 @@
 
 This is my demonstration for how the worm operates. This attack consists of 2 parts: infection and spreading. For the first part, I'll write the code that echoes `This computer is hacked: port [port number]` and the result will be appended to the C&C server. For the second part, it will scan for other computers and repeat the attack. For simplicity, I will open various ports in my kali linux virtual machine that would represent the computers in a network. 
 
-# Instructions
+## Instructions
 
 Use `nc_listener_script.sh` to run netcat listener infinitely. Give execute permission first.
 
@@ -45,3 +45,8 @@ and run the script.
 ```bash
 ./kill_all_nc_listener.sh
 ```
+
+## Video Demonstration
+
+https://github.com/user-attachments/assets/a19459b5-74e5-43b2-a2a3-89bb1b20ea59
+
