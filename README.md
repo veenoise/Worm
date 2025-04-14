@@ -1,5 +1,9 @@
 # Worm Simulation
 
+## Author
+
+- [William Eduard Chua](https://www.github.com/veenoise)
+
 This is my demonstration for how the worm operates. This attack consists of 2 parts: infection and spreading. For the first part, I'll write the code that echoes `This computer is hacked: port [port number]` and the result will be appended to the C&C server. For the second part, it will scan for other computers and repeat the attack. For simplicity, I will open various ports in my kali linux virtual machine that would represent the computers in a network. 
 
 ## Instructions
